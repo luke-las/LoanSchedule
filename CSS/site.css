@@ -3,18 +3,20 @@
     --secondary-color:#ff993b;
     --dark-color: #292929;
     --white-color: #dff3e4;
+    --blue-color: rgb(53, 99, 160);
 }
+
 
 body{
     color:var(--dark-color);
 }
 
 nav{
-    background-color: var(--dark-color);
+    background-color: var(--primary-color);
 }
 
 footer{
-    background-color: var(--dark-color);
+    background-color: var(--primary-color);
     padding-right:1rem;
     padding-left:1rem;
 }
